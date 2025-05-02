@@ -10,6 +10,11 @@ function loadNetworkConfig(type) {
         name: '0G-Galileo-Testnet',
         rpcUrl: 'https://evmrpc-testnet.0g.ai/',
         explorer: 'https://chainscan-galileo.0g.ai/'
+      },
+      {
+        name: 'Somnia Testnet',
+        rpcUrl: 'https://dream-rpc.somnia.network',
+        explorer: 'https://shannon-explorer.somnia.network/'
       }
     ];
   } else if (type === 'mainnet') {
